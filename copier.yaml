@@ -1,0 +1,25 @@
+---
+# Questions
+
+projectname:
+  type: str
+  help: The name of the project
+
+description:
+  type: str
+  help: A short description of the project
+
+docs:
+  type: bool
+  help: Whether to include documentation
+  default: true
+
+releases:
+  type: bool
+  help: Whether you plan to make releases
+  default: false
+
+# Configuration
+
+_subdirectory: src
+_answers_file: .copier-answers.yaml

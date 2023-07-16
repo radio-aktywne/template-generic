@@ -1,0 +1,33 @@
+<h1 align="center">{{ projectname }}</h1>
+
+<div align="center">
+
+{{ description }}
+
+[![Lint](https://github.com/radio-aktywne/{{ projectname }}/actions/workflows/lint.yaml/badge.svg)](https://github.com/radio-aktywne/{{ projectname }}/actions/workflows/lint.yaml)
+{%- if docs %}
+[![Docs](https://github.com/radio-aktywne/{{ projectname }}/actions/workflows/docs.yaml/badge.svg)](https://github.com/radio-aktywne/{{ projectname }}/actions/workflows/docs.yaml)
+{%- endif %}
+
+</div>
+
+---
+
+## 💡 About
+
+Treat this `README.md` as the landing page for people
+that want to **use** your project.
+
+Write here whatever you want to tell them.
+{%- if docs %}
+
+## 📄 Further Reading
+
+More in-depth documentation can be found
+[here](https://radio-aktywne.github.io/{{ projectname }}).
+{%- endif %}
+
+## 💻 Development
+
+Read more about how to develop the project
+[here](https://github.com/radio-aktywne/{{ projectname }}/blob/main/CONTRIBUTING.md).
