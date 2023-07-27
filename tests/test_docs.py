@@ -11,9 +11,13 @@ def data() -> dict[str, str]:
     """Return a dictionary with the data to be used in the template."""
 
     return {
+        "accountname": "radio-aktywne",
         "projectname": "foo",
-        "description": "Generic project",
+        "description": "Example project",
+        "reponame": "foo",
+        "repourl": "https://github.com/radio-aktywne/foo",
         "docs": "true",
+        "docsurl": "https://radio-aktywne.github.io/foo",
         "releases": "false",
     }
 
