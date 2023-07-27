@@ -11,9 +11,13 @@ def data() -> dict[str, str]:
     """Return a dictionary with the data to be used in the template."""
 
     return {
+        "accountname": "radio-aktywne",
         "projectname": "foo",
-        "description": "Generic project",
+        "description": "Example project",
+        "reponame": "foo",
+        "repourl": "https://github.com/radio-aktywne/foo",
         "docs": "true",
+        "docsurl": "https://radio-aktywne.github.io/foo",
         "releases": "true",
     }
 
@@ -44,7 +48,7 @@ def copied_template_directory(
 
 
 def test_lint(copied_template_directory: Path) -> None:
-    """Test that the template can be linted without errors."""
+    """Test that the project can be linted without errors."""
 
     with CWD(copied_template_directory):
         local.cmd.nix(

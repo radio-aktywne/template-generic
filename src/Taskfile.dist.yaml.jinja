@@ -48,8 +48,8 @@ tasks:
         check
         {{ '{{ .CLI_ARGS }}' }}
   {%- if docs %}
-  clean-docs:
-    desc: Clean docs
+  remove-docs-node-modules:
+    desc: Clean docs node_modules
     dir: docs
     cmds:
       - >

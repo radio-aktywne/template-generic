@@ -83,7 +83,7 @@ tasks:
         --defaults
         --vcs-ref HEAD
         --data 'projectname=foo'
-        --data 'description=Generic project'
+        --data 'description=Example project'
         {{ .CLI_ARGS }}
         ./
         ./build/
