@@ -1,4 +1,3 @@
----
 # Questions
 
 accountname:
@@ -38,7 +37,7 @@ docsurl:
 releases:
   type: bool
   help: Whether you plan to make releases
-  default: false
+  default: true
 
 # Configuration
 

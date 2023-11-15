@@ -2,7 +2,7 @@
 
 <div align="center">
 
-Generic app template 👤
+Generic template 👤
 
 [![Lint](https://github.com/radio-aktywne/template-generic/actions/workflows/lint.yaml/badge.svg)](https://github.com/radio-aktywne/template-generic/actions/workflows/lint.yaml)
 [![Test](https://github.com/radio-aktywne/template-generic/actions/workflows/test.yaml/badge.svg)](https://github.com/radio-aktywne/template-generic/actions/workflows/test.yaml)
@@ -14,7 +14,7 @@ Generic app template 👤
 ## 💡 About
 
 This repository contains a [`copier`](https://copier.readthedocs.io) template
-that can be used to create generic projects for
+that can be used to create projects for
 [`radio-aktywne`](https://github.com/radio-aktywne).
 
 ## 📜 Usage
