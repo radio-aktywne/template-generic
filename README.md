@@ -14,7 +14,7 @@ Generic template 👤
 ## 💡 About
 
 This repository contains a [`copier`](https://copier.readthedocs.io) template
-that can be used to create projects.
+that can be used to create generic-purpose projects.
 
 ## 📜 Usage
 
